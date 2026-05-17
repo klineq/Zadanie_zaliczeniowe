@@ -7,14 +7,14 @@ Konsolowa symulacja bazy orbitalnej: maszyny wydobywają rudę, huta ją przetap
 
 ---
 
-## Co tu jest zrobione na 5.0 (BDB)
+## Projekt wykonany na 5.0 (BDB)
 
-Poza standardową listą 12 mechanizmów PO dodałem dwie rzeczy „ponad program”:
+
 
 1. **Spectre.Console** — zamiast suchego `Console.WriteLine` jest kolorowe menu, tabele maszyn i magazynu, panele statusu oraz paski postępu (np. przy skanie planety i po ticku produkcyjnym).
 2. **Asynchroniczny JSON** — zapis i odczyt stanu bazy (`spacebase_save.json`) przez `async/await` i `System.Text.Json`, plus async skan planety z opóźnieniem symulującym długą operację.
 
-W kodzie szukaj komentarzy w stylu `// [WYMÓG 1: Klasy]` — prowadzący może szybko odhaczyć punkty.
+
 
 ---
 
